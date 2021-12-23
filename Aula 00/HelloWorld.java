@@ -5,7 +5,7 @@
 //Exemplo para escrever Hello World no display do EV3 brick
 //************************************************************
 
-package application;
+package aplicacao;
 
 //importar pacotes de hardware EV3 para encontrar o brick,
 //acessar os botões e o display LCD
