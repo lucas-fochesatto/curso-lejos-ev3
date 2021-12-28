@@ -36,13 +36,13 @@ public class p3 {
 		RIGHT_MOTOR.rotate(360);
 		
 		// apresentar a contagem do tacômetro na linha 1
-		display.drawString("Leitura Tacometro: " + RIGHT_MOTOR.getTachoCount(), 0, 0);
+		display.drawString("Leitura 1: " + RIGHT_MOTOR.getTachoCount(), 0, 1);
 		
 		// rotacionar para o ângulo de 360
 		RIGHT_MOTOR.rotateTo(360);
 		
 		// apresentar a contagem do tacômetro na linha 2
-		display.drawString("Leitura Tacometro: " + RIGHT_MOTOR.getTachoCount(), 0, 1);
+		display.drawString("Leitura 2: " + RIGHT_MOTOR.getTachoCount(), 0, 2);
 
 		buttons.waitForAnyPress();
 		display.clear();
