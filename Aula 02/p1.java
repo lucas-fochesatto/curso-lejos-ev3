@@ -18,7 +18,7 @@ public class p1 {
 
 	public static void main(String[] args) {
 		EV3LargeRegulatedMotor LEFT_MOTOR = new EV3LargeRegulatedMotor(MotorPort.A);
-		EV3LargeRegulatedMotor RIGHT_MOTOR = new EV3LargeRegulatedMotor(MotorPort.C);
+		EV3LargeRegulatedMotor RIGHT_MOTOR = new EV3LargeRegulatedMotor(MotorPort.D);
 
 		//encontra ev3 brick
 		EV3 ev3brick = (EV3) BrickFinder.getLocal();

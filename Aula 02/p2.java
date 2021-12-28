@@ -46,7 +46,7 @@ public class p2 {
 		LEFT_MOTOR.stop();
 		
 		// apresentar a leitura do tacômetro
-		display.drawString("Leitura tacometro: " + count, 0, 0);
+		display.drawString("Leitura 1: " + count, 0, 0);
 		
 		// esperar até que o motor tenha realmente parado e exibir a contagem do tacômetro
 		// este número será maior que o anterior devido à inércia do motor
@@ -55,7 +55,7 @@ public class p2 {
 			
 		}
 		
-		display. drawString("Leitura tacometro: " + LEFT_MOTOR.getTachoCount(), 0, 1); 
+		display. drawString("Leitura 2: " + LEFT_MOTOR.getTachoCount(), 0, 1); 
 		
 		// bloquear a execução até que um botão seja pressionado
 		buttons.waitForAnyPress();
