@@ -26,6 +26,7 @@ public class p2 {
 		TextLCD display = ev3brick.getTextLCD();
 		
 		// bloquear a execução até que um botão seja pressionado
+		display.drawString("Aperte para iniciar", 0, 0);
 		buttons.waitForAnyPress();
 		
 		// atribuir a velocidade do motor para 720º/s
@@ -46,7 +47,7 @@ public class p2 {
 		LEFT_MOTOR.stop();
 		
 		// apresentar a leitura do tacômetro
-		display.drawString("Leitura 1: " + count, 0, 0);
+		display.drawString("Leitura 1: " + count, 0, 1);
 		
 		// esperar até que o motor tenha realmente parado e exibir a contagem do tacômetro
 		// este número será maior que o anterior devido à inércia do motor
@@ -55,7 +56,7 @@ public class p2 {
 			
 		}
 		
-		display. drawString("Leitura 2: " + LEFT_MOTOR.getTachoCount(), 0, 1); 
+		display. drawString("Leitura 2: " + LEFT_MOTOR.getTachoCount(), 0, 2); 
 		
 		// bloquear a execução até que um botão seja pressionado
 		buttons.waitForAnyPress();
