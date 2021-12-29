@@ -11,7 +11,7 @@ import lejos.hardware.BrickFinder;
 import lejos.hardware.Keys;
 import lejos.hardware.Sound;
 import lejos.hardware.ev3.EV3;
-import lejos.hardware.lcd.TextLCD;
+import lejos.hardware.lcd.LCD;
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.hardware.port.MotorPort; 
 
@@ -24,7 +24,6 @@ public class p4 {
 		EV3 ev3brick = (EV3) BrickFinder.getLocal();
 		
 		Keys buttons = ev3brick.getKeys();
-		TextLCD display = ev3brick.getTextLCD();
 		
 		// apitar dois beeps antes de iniciar o programa
 		Sound.twoBeeps();
@@ -38,7 +37,7 @@ public class p4 {
 		// retorna verdadeiro se o motor está em movimento
 		while(LEFT_MOTOR.isMoving()) {
 			// exibe e atualiza a leitura do tacômetro na tela:
-			display.drawString("Leitura 1: " + LEFT_MOTOR.getTachoCount(), 0, 0);
+			LCD.drawString("Leitura 1: " + LEFT_MOTOR.getTachoCount(), 0, 0);
 			
 			// se qualquer botão for pressionado, parar o motor
 			if(buttons.readButtons() > 0) {
@@ -50,7 +49,7 @@ public class p4 {
 		while (LEFT_MOTOR.getRotationSpeed() > 0);
 		
 		// exibe a leitura do tacômetro depois do motor parado completamente
-		display.drawString("Leitura 2: " + LEFT_MOTOR.getTachoCount(), 0, 1);
+		LCD.drawString("Leitura 2: " + LEFT_MOTOR.getTachoCount(), 0, 1);
 		
 		// bloquear a execução até que um botão seja pressionado
 		buttons.waitForAnyPress();
