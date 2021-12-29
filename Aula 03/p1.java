@@ -22,7 +22,7 @@ public class p1 {
 	static EV3LargeRegulatedMotor LEFT_MOTOR = new EV3LargeRegulatedMotor(MotorPort.A);
 	static EV3LargeRegulatedMotor RIGHT_MOTOR = new EV3LargeRegulatedMotor(MotorPort.D);
 	
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args) {
 		// encontrar ev3
 		EV3 ev3brick = (EV3) BrickFinder.getLocal();
 		
