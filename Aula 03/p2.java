@@ -1,7 +1,7 @@
 //*************************************************************************
 //Lucas Fochesatto e Victor Oliva - Curso Introdutório de Robótica para OBR
 //p2.java
-//Movimentos básicos da classe de piloto
+//Traçando um quadrado com a classe MovePilot
 //Créditos ao autor Wei Lu pela criação do código
 //Referência: Beginning Robotics Programming in Java with LEGO Mindstorms
 //*************************************************************************
@@ -46,7 +46,7 @@ public class p2 {
 		// instanciação do piloto
 		MovePilot pilot = new MovePilot(chassis);
 		
-        // repetir por 4 vezes
+		// repetir por quatro vezes
 		for(int i = 0; i < 4; i++) {
 			// andar 100cm
 			pilot.travel(100);
