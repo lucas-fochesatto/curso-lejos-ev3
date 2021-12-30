@@ -1,7 +1,7 @@
 //*************************************************************************
 //Lucas Fochesatto e Victor Oliva - Curso Introdutório de Robótica para OBR
-//p2.java
-//Traçando um quadrado com a classe MovePilot
+//p3.java
+//Traçando um triângulo equilátero com a classe MovePilot
 //Créditos ao autor Wei Lu pela criação do código
 //Referência: Beginning Robotics Programming in Java with LEGO Mindstorms
 //*************************************************************************
