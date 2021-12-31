@@ -1,3 +1,10 @@
+//*************************************************************************
+//Lucas Fochesatto e Victor Oliva - Curso Introdutório de Robótica para OBR
+//Aula 03 - p5.java
+//Movimentos básicos da classe navegador
+//Créditos ao autor Wei Lu pela criação do código
+//Referência: Beginning Robotics Programming in Java with LEGO Mindstorms
+//*************************************************************************
 package application;
 
 import lejos.hardware.BrickFinder;
