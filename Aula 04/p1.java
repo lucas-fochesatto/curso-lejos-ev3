@@ -1,9 +1,7 @@
 //*************************************************************************
 //Lucas Fochesatto e Victor Oliva - Curso Introdutório de Robótica para OBR
 //Aula 04 - p1.java
-//MInformações com o sensor de toque
-//Créditos ao autor Wei Lu pela criação do código
-//Referência: Beginning Robotics Programming in Java with LEGO Mindstorms
+//Informações com o sensor de toque
 //*************************************************************************
 package application;
 

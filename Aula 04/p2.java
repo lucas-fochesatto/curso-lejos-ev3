@@ -1,9 +1,7 @@
 //*************************************************************************
 //Lucas Fochesatto e Victor Oliva - Curso Introdutório de Robótica para OBR
 //Aula 04 - p2.java
-//MInformações com o sensor de distância
-//Créditos ao autor Wei Lu pela criação do código
-//Referência: Beginning Robotics Programming in Java with LEGO Mindstorms
+//Informações com o sensor ultrassônico
 //*************************************************************************
 package application;
 
